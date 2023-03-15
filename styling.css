@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{ 
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: fixed;
+    z-index: 999; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    font-size: larger;
+}
+.logo{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.8em ;
+    background-color: transparent;
+}
+.navigation a{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: rgb(255, 0, 0);
+}
+section{
+    padding: 100px 100px;
+}
+.main{
+width: 100%;
+min-height: 100vh;
+display: flex;
+align-items: center;
+background: url(image/alb.png);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+.main h2{ 
+    font-size: 40px; 
+    color: white;
+    font-weight: 300;
+    
+}
+.main h4{ 
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 900
+ 
+}
+.main-btn{
+    color: black;
+    background-color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 40px ;
+    font-weight: 600;
+    border-spacing: 1px ;
+    border-radius: 15px;
+    padding: 15px;
+    display: inline-block;
+    margin-top: 50px;
+    transform: 1s ease;
+}
+.main-btn:hover{
+    background-color: rgb(0, 177, 74);
+    transform: scale(1.1);
+}
+.title{
+    font-size: 50px;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 177, 74);
+
+}
+
+.info-body{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background: rgb(93, 255, 161);
+}
+body .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 40px 0;
+  }
+  body .container .card {
+    position: relative;
+    min-width: 320px;
+    height: 440px;
+    box-shadow: inset 5px 5px 5px rgba(250, 238, 238, 0.2),
+      inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+      5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    margin: 30px;
+    transition: 0.5s;
+  }
+  body .container .card:nth-child(1) .box .content a {
+    background: #2196f3;
+  }
+  
+  body .container .card:nth-child(2) .box .content a {
+    background: #e91e63;
+  }
+  
+  body .container .card:nth-child(3) .box .content a {
+    background: #23c186;
+  }
+  
+  body .container .card .box {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  body .container .card .box:hover {
+    transform: translateY(-50px);
+  }
+  
+  body .container .card .box:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.03);
+  }
+  
+  body .container .card .box .content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  body .container .card .box .content h2 {
+    position: absolute;
+    top: -10px;
+    right: 30px;
+    font-size: 8rem;
+    color: rgba(59, 58, 58, 0.1);
+  }
+  body .container .card .box .content h3 {
+    font-size: 1.8rem;
+    color: #000000;
+    z-index: 1;
+    transition: 0.5s;
+    margin-bottom: 15px;
+  }
+  
+  body .container .card .box .content p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+    transition: 0.5s;
+  }
+  
+  body .container .card .box .content a {
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    background: black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    margin-top: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+  }
+  body .container .card .box .content a:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+    background: #fff;
+    color: #000;
+  }
+
+
+
+  .para-s{
+    background-color: rgb(192, 192, 192);
+    font-size: 30px;
+    text-align: center;
+  }
+  .infosfs{
+  background-color: white;
+  padding: 10px 10px;
+  }
